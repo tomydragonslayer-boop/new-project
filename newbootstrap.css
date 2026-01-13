@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #0d1422;
+}
+header{
+    background-color: #0d1422;
+}
+.section1{
+    height: 100vh;
+    background-image: url(media/KeyArt_Oceania_3840x2160_20_282_29.jpg);
+    background-size: cover;
+}
+.buy1{
+    background-color: transparent;
+    color: white;
+}
+.buy1:hover{
+    background-color: white;
+    color: #364e80;
+}
+.divider{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    color: white;
+}
+.tagline1{
+    width: 30%;
+}
+.vid1{
+    width: 18%;
+}
+.vid2{
+    width: 18%;
+}
+.vid3{
+    width: 18%;
+}
+.vid4{
+    width: 18%;
+}
+.vidtag{
+    position: absolute;
+    top: -35%;
+    font-size: 17px;
+    width: 65%;
+}
+.vidutag{
+    font-size: 17px;
+}
+.section3{
+    background-image: url(media/promo-bg.jpg);
+}
+.collect{
+    font-size: 17px;
+}
+.butn3{
+    width: 150px;
+    height: 65px;
+    background-color: #0d1422;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.promtxt, .prom2, .prom2txt{
+    width: 30%;
+}
+.section4{
+    background-image: url(media/second-promo-landscape.jpg);
+    background-size: cover;
+}
+.prom2txt p{
+    width: 90%;
+}
+.butn4{
+    width: 200px;
+    height: 70px;
+    font-size: 20.5px;
+    border: none;
+    font-weight: 400;
+}
+.quotes{
+    background-image: url(/media/quote_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+ }
+ .quotep{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 60%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    opacity: 0;
+    animation: quote 12s infinite ease;
+ }
+ .byline{
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    bottom: 70px;
+    opacity: 0;
+    animation: quote 12s infinite ease;
+ }
+ .l1{
+    animation-delay: 0s;
+ }
+ .l2{
+    animation-delay: 4s;
+ }
+ .l3{
+    animation-delay: 8s;
+ }
+ @keyframes quote {
+    0% {transform: translateY(1px);}
+    25%{transform: translateY(0px); opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 0;}
+ }
+ .p1 {
+    animation-delay: 0s;
+}
+.p2 {
+    animation-delay: 4s;
+}
+.p3 {
+    animation-delay: 8s;
+}
+/* .section5{
+    height: 233vh;
+} */
+.butns6{
+    font-size: 18px;
+}
+.game2gether{
+    background-image: url(media/G2G-Background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+/* .game2gether div{
+    width: 25%;
+} */
+.gamebtn{
+    background-color: transparent;
+    color: white;
+}
+.gamebtn:hover{
+    background-color: #0d1422;
+    color: white;
+    filter: invert();
+}
+footer{
+    background-color: #13223f;
+}
+.footcontimg{
+    width: 12%;
+}
+.footcont p{
+    font-size: 11.5px;
+    font-weight: 500;
+}
+.navf{
+    font-size: 13px;
+}
+.socials{
+    width: 38%;
+    display: flex;
+    gap: 25px;
+}
+.socialf{
+    width: 35px;
+    height: 35px;
+}
+.steam{
+    filter: invert();
+}
+.fb{
+    filter: invert();
+}
+.x{
+    filter: invert();
+}
+.yt{
+    filter: invert();
+}
+.ig{
+    filter: invert();
+}
+.discord{
+    filter: invert();
+}
+.twitch{
+    filter: invert();   
+}
+.privacy{
+    font-size: 14px;
+}
+.privbox{
+    width: 18%;
+}
+.rate{
+    display: flex;
+    gap: 30px;
+    border: solid;
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    margin-top: 40px;
+    border-width: 2px;
+}
+.rate p{
+    margin-top: 10px;
+}
+#e18{
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .tagline1{
+        width: 90%;
+    }
+    .vidcards{
+        overflow: hidden;
+        width: 80%;
+    }
+    .vid1{
+        width: 30%;
+    }
+     .vid2 {
+        width: 30%;
+    }
+    .vid3 {
+        width: 30%;
+    }
+    .vid4{
+        width: 30%;
+    }
+    .vidtag{
+        font-size: 27px;
+        top: -50%;
+        width: 80%;
+    }
+    .vt3{
+        top: -75%;
+    }
+    .promtxt{
+        width: 50%;
+    }
+    .promimg{
+        width: 90%;
+    }
+    .promimgdiv{
+        margin-top: -30%;
+    }
+    .partner{
+        width: 100%;
+    }
+    .prom2{
+        width: 50%;
+        margin-top: -40%;
+    }
+    .prom2txt{
+        width: 50%;
+    }
+    .prom2txt p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .game2gether div{
+        width: 40%;
+    }
+    .game2gether h6{
+        font-size: 13px;
+    }
+    .privbox{
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .socialf{
+    width: 25px;
+    height: 25px;
+}
+.footcont{
+    width: 95%;
+}
+.footcontimg{
+    width: 40%;
+}
+.privbox{
+        width: 60%;
+    }
+}
+@media (max-width: 768px) {
+    .vid1, .vid2, .vid3, .vid4{
+        width: 80%;
+    }
+    .quotep{
+        width: 100%;
+    }
+    .promtxt, .prom2txt p, .prom2txt{
+        width: 100%;
+        text-align: center;
+    }
+    .game2gether div{
+        width: 90%;
+    }
+    .rate{
+        width: 60%;
+        height: 13vh;
+    }
+}

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.8-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="newbootstrap.css">
+</head>
+<body>
+    <!-- <h1 class="text-danger bg-warning border border-danger border-3 p-3 m-3 text-center">
+        An Header
+    </h1>
+    <div style="width: 400px; height: 400px;" class="bg-dark position-relative top-50">
+        <div style="height: 50px; width: 50px;" class="bg-danger rounded-circle text-warning text-center position-absolute top-0 start-100 translate-middle">30+</div>
+
+    </div> -->
+
+    <header class="position-sticky top-0 z-3 w-100">
+        <div class="d-flex p-2 justify-content-between">
+            <nav class="d-xxl-flex gap-5 text-center">
+                <a href="" class="text-decoration-none text-light"><h1 class="fw-bolder fs-2">HUMANKIND</h1></a>
+                <a href="" class="text-decoration-none text-light fw-bold d-none d-xxl-flex">ABOUT</a>
+                <a href="" class="text-decoration-none text-light fw-bold d-none d-xxl-flex">PARTNER PROGRAM</a>
+                <a href="" class="text-decoration-none text-light fw-bold d-none d-xxl-flex">MEDIA</a>
+            </nav>
+            <button style="width: 125px; height: 45px;" class="d-none d-sm-block bg-dark-emphasis rounded fw-bold ">BUY NOW</button>
+        </div>
+    </header>
+    <div class="position-fixed w-100 bg-light text-center">
+        <button style="height: 45px;" class="w-100 fw-bold border-0 d-sm-none z-3">
+            BUY NOW
+        </button>
+    </div>
+
+    <main>
+        <section class="section1 d-flex justify-content-center align-items-center pt-5 w-100">
+            <div style="width: 350px; height: 400px;" class="d-flex flex-column align-items-center gap-4">
+                <img src="media/Logo_HK_Cultures_20of_20Oceania.svg" alt="">
+                <button style="width: 200px; height: 65px;" class="buy1 rounded border border-2 border-light fs-5 fw-medium">BUY NOW</button>
+            </div>
+        </section>
+
+        <hr style="height: 0; border: 5px solid white; background-color: white;" class="position-relative top-0 m-0">
+
+
+        <!-- video section -->
+        <section class="section2 d-flex flex-column align-items-center pb-3 gap-2 border border-3 border-warning">
+            <img src="media/HKD_TAGLINE_RGB_ARCTIC-WHITE_0.svg.svg" alt="" class="tagline1">
+
+            <div class="vidcards d-flex flex-wrap justify-content-center gap-4 border border-3 border-danger">
+
+
+                <div class="vid1">
+                    <video src="media/Moon landing.mp4" loop muted autoplay style="width: 100%; border-radius: 10px;"></video>
+
+                    <!-- video text section -->
+                    <span class="position-relative d-flex flex-column align-items-center mt-2 z-1">
+                        <h6 class="vidtag fw-bolder text-light text-center">One Million Civilizations</h6>
+                        <p style="width: 90%;" class="text-light">
+                            Create your own civilization by combining 60 historical cultures from the Ancient to the Modern Age.
+                             Each culture brings its special gameplay layer, leading to near-endless outcomes
+                        </p>
+                        <h6 style="width: 90%;" class="vidutag text-light fw-bolder">What civilization will you shape?</h6>
+                    </span>
+                </div>
+
+
+                <div class="vid2">
+                    <video src="media/Nubia.mp4" loop muted autoplay style="width: 100%; border-radius: 10px;"></video>
+
+                    <!-- video text -->
+                     <span class="position-relative d-flex flex-column align-items-center mt-2 z-1">
+                        <h6 class="vidtag fw-bolder text-light text-center">In the Eyes of Posterity</h6>
+                        <p style="width: 90%;" class="text-light">
+                            Every great deed you accomplish, every moral choice you make, every battle won will build your fame.
+                             The player with the most fame will win the game.
+                        </p>
+                        <h6 style="width: 90%;" class="vidutag text-light fw-bolder">Will you be the one to leave the deepest mark on the world?</h6>
+                    </span>
+                </div>
+
+
+                <div class="vid3">
+                    <video src="media/Mycenaean.mp4" loop muted autoplay style="width: 100%; border-radius: 10px;"></video>
+
+                    <!-- video text -->
+                     <span class="position-relative d-flex flex-column align-items-center mt-2 z-1">
+                        <h6 class="vidtag vt3 fw-bolder text-light text-center">More than History, it is Your Story</h6>
+                        <p style="width: 90%;" class="text-light">
+                            Face historical events, take impactful moral decisions, and make scientific breakthroughs.
+                             Discover the natural wonders of the world or build the remarkable creations of humankind.
+                        </p>
+                        <h6 style="width: 90%;" class="vidutag text-light fw-bolder">How will you change the course of HUMANKIND?</h6>
+                    </span>
+                </div>
+
+
+                <div class="vid4">
+                    <video src="media/Hittites.mp4" loop muted autoplay style="width: 100%; border-radius: 10px;"></video>
+
+                    <!-- video text -->
+                     <span class="position-relative d-flex flex-column align-items-center mt-2 z-1">
+                        <h6 class="vidtag fw-bolder text-light text-center">Master a fully tactical world</h6>
+                        <p style="width: 90%;" class="text-light">
+                            Show off tactical skills by mastering terrain elevation with city-building and tactical battles.
+                             Call on reinforcements to transform an epic battle into a multi-terrain world war!
+                        </p>
+                        <h6 style="width: 90%;" class="vidutag text-light fw-bolder">What strategy will you mastermind?</h6>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1st promo section -->
+        <section class="section3 d-flex justify-content-center align-items-center gap-xxl-3 gap-lg-5 gap-md-4 p-3 w-100">
+
+            <div class="promtxt">
+                <h1 class="fw-bolder">PLAY HUMANKIND TODAY ON PC!</h1> <br>
+                <p class="collect fw-medium">Buy HUMANKIND™ Collection on PC now and enjoy bonus content! <br> <br>
+                    <img src="media/HKD_ARRAY_COLLECTION_EPIC_DIGITAL_EN.jpg" alt="" class="d-sm-none w-100"> <br> <br>
+                    This Collection includes:
+                    <ul>
+                        <li>HUMANKIND™ digital game</li>
+                        <li>HUMANKIND™ - Cultures of Africa DLC</li>
+                        <li>HUMANKIND™ digital soundtrack (.mp3)</li>
+                        <li>Unit & Tech tree poster (.pdf)</li>
+                        <li>HUMANKIND™ Notre-Dame pack and more!</li>
+                    </ul> <br>
+                    <button class="butn3 rounded-2">BUY NOW!</button>
+                </p>
+            </div>
+
+            <div class="promimgdiv">
+                <img src="media/HKD_ARRAY_COLLECTION_EPIC_DIGITAL_EN.jpg" alt="" class="promimg d-sm-block d-none ">
+            </div>
+        </section>
+
+        <!-- second promo section -->
+        <section class="section4 d-flex justify-content-center align-items-center gap-xl-5 gap-md-3 w-100 p-3">
+            <div class="prom2 d-none d-sm-block">
+                <img src="media/partner-program.png" alt="" class="partner d-none d-sm-block p-0 w-100">
+            </div>
+            <div class="prom2txt text-light">
+                <h1 class="fw-bolder">JOIN OUR HUMANKIND™ PARTNER PROGRAM</h1> <br>
+                <h5><b>LEAVE YOUR MARK ON HUMANKIND™!</b></h5><br>
+                <p style="font-size: 17px;" class="fw-medium">
+                    Are you a content creator? Small, large or anywhere in between, we’d love to work with you!
+                    As part of the HUMANKIND™ Partner Program you’ll have access to the support you need to make your HUMANKIND™ content the best it can be. <br> <br>
+
+                    <img src="media/partner-program.png" alt="" class="d-sm-none w-100">
+
+                    In addition to a direct line of contact with us, you’ll also have access to affiliate links, game keys and more!
+                    If you’re passionate about HUMANKIND™, we’re passionate about you, so what are you waiting for? Join us, and leave your mark on HUMANKIND™.
+                </p>
+                <button class="butn4 rounded-2">SIGN UP NOW!</button>
+            </div>
+        </section>
+
+        <!-- transition section -->
+         <section>
+            <div class="quotes w-100 p-3 position-relative d-flex justify-content-center align-items-center">
+                <div class="quotep p1">
+                    <p>"GRAND HISTORICAL STRATEGY IS GETTING THE SHAKE-UP IT DESERVES"</p>
+                    <h6 class="byline l1">POLYGON</h6>
+                </div>
+                <div class="quotep p2">
+                    <p>"AMPLITUDE IS CREATING SOMETHING REALLY QUITE EXCITING"</p>
+                    <h6 class="byline l2">IGN</h6>
+                </div>
+                <div class="quotep p3">
+                    <p>"HUMANKIND IS A TRIPLE-A GAME, AND IT SHOWS"</p>
+                    <h6 class="byline l3">PC GAMER</h6>
+                </div>
+            </div>
+         </section>
+
+
+         <!-- grid section -->
+          <section class="section5 d-flex justify-content-center">
+            <div style="width: 70%;" class="parent d-flex flex-column align-items-center justify-content-center">
+                <span class="text-center text-light fw-bold fs-5 m-5"><h3>MEDIA</h3></span>
+
+                <span class="d-flex align-self-end me-3 gap-4">
+                    <button style="width: 90px; height: 35px;" class="butns6 bg-transparent text-light border border-1 rounded">Images</button>
+                    <button style="width: 90px; height: 35px;" class="butns6 bg-transparent text-light border border-1 rounded">Video</button>
+                </span>
+
+                <!-- gallery grid -->
+
+                <div class="container-fluid text-center mt-4 overflow-hidden pb-4">
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-11 col-lg flex-wrap p-0">
+                            <img src="media/launch.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-11 col-lg flex-wrap p-0">
+                            <img src="media/trade.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/LUCY_20TRAILER.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF12.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF11.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/DE_20VITA.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF10.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF9.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/PREORDER.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF8.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF7.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF6_0.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF5.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF4.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF3.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF2.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/FF1.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/your-story.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/SAPIENS.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/siege_20battle.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/cultures.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/naval_20exploration.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/fame.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/city.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/battle_20.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/diplomacy.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/exploration.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/techno.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/outpost.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/civics.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center gap-4">
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/influence.jpg" alt="" style="width: 100%;" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            <img src="media/religion.jpg" alt="" width="100%" class="rounded-2">
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                          
+                        </div>
+                        <div class="col-5 col-lg flex-wrap p-0 gy-3">
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- prefooter section -->
+
+          <section class="game2gether p-3">
+            <div style="margin-left: 9%;" class="d-flex flex-column gap-3 mt-5">
+                <img src="media/1_logo-games2gether-text.svg" alt="" style="width: 100%;">
+                <h6 class="text-light fw-light">JOIN OUR UNIQUE COMMUNITY OF CO-CREATORS!</h6>
+                <button style="height: 50px; width: 85%;" class="gamebtn border border-1 border-light rounded-2">
+                    <img src="media/trial2__250_x_250_px_-removebg-preview.png" alt="" style="width: 7%;" class="gameimgs">
+                    LET'S CREATE GAMES2GETHER!
+                </button>
+            </div>
+          </section>
+
+          <!-- footer -->
+
+          <footer class="d-flex align-items-center justify-content-center pt-sm-0 pt-5">
+            <div style="width: 85%;" class="footcont pb-4">
+                <span class="d-flex gap-5">
+                    <img src="media/2_logo-ampli-4-2_grey_horizontal_clean_v03.svg" alt="" class="footcontimg">
+                    <img src="media/3_logo-games2gether-text-white.svg" alt="" class="footcontimg">
+                </span>
+                <hr class="thick-height border-light">
+                <p class="text-light p-2">
+                    © 2024 Amplitude Studios SAS. All rights reserved. Amplitude, Amplitude Studios, Amplitude’s logo, Endless Space, Endless Legend, Endless Dungeon, Dungeon of the Endless and Humankind are registered trademarks of Amplitude Studios SAS.
+                </p>
+                <nav class="d-flex flex-column flex-sm-row gap-2 gap-sm-5 pt-4">
+                    <a href="" class="navf text-light fw-bold text-decoration-none">EULA</a>
+                    <a href="" class="navf text-light fw-bold text-decoration-none">PRIVACY POLICY</a>
+                    <a href="" class="navf text-light fw-bold text-decoration-none">COOKIE POLICY</a>
+                    <a href="" class="navf text-light fw-bold text-decoration-none">ACCOUNT TERMS OF SERVICE</a>
+                </nav>
+                <div class="socials mt-5">
+                    <img src="media/steam.svg" alt="" class="socialf steam">
+                    <img src="media/facebook.svg" alt="" class="socialf fb">
+                    <img src="media/twitter-x.svg" alt="" class="socialf x">
+                    <img src="media/instagram.svg" alt="" class="socialf ig">
+                    <img src="media/youtube.svg" alt="" class="socialf yt">
+                    <img src="media/twitch.svg" alt="" class="socialf twitch">
+                    <img src="media/discord.svg" alt="" class="socialf discord">
+                    <img src="media/trial2__250_x_250_px_-removebg-preview.png" alt="" class="socialf hk">
+                </div>
+                <div style=" height: 6vh;" class="privbox d-flex border border-1 border-light text-light align-items-center justify-content-center mt-4">
+                    Your Privacy Choices
+                </div>
+                <h6 class="privacy text-light mt-2">What is the California Privacy Act?</h6>
+                <div class="rate">
+                    <img src="media/esrb-everyone-10_0.svg.svg" alt="" id="e18">
+                    <p>Alcohol Reference, Mild Language, Mild Violence</p>
+                </div>
+            </div>
+          </footer>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+</body>
+</html>
