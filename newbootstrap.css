@@ -146,9 +146,9 @@ header{
     height: 50vh;
     width: 100%;
 }
-/* .game2gether div{
+.game2gether div{
     width: 25%;
-} */
+}
 .gamebtn{
     background-color: transparent;
     color: white;
